@@ -1,0 +1,20 @@
+Loaded job description: ../../eval/data/job.txt
+Loaded 5 CV file(s).
+Warning: skipped empty.txt: No extractable text found in /Users/m0g041w/Library/CloudStorage/OneDrive-WalmartInc/2026/workplace/genai/capstone_project/eval/data/cvs_noisy/empty.txt
+Warning: skipped broken.docx: Invalid DOCX file: /Users/m0g041w/Library/CloudStorage/OneDrive-WalmartInc/2026/workplace/genai/capstone_project/eval/data/cvs_noisy/broken.docx
+Extractor model (LLM-1): gemini-3.5-flash-lite
+Ranker model (LLM-2): gemini-3.8-flash
+Parsed job title: Senior Data Engineer
+Extracting CV 1/5: john_doe.md
+Scoring CV 1/5: John Doe
+Extracting CV 2/5: rahul_verma.docx
+Scoring CV 2/5: Rahul Verma
+Extracting CV 3/5: priya_sharma.pdf
+Scoring CV 3/5: Priya Sharma
+Extracting CV 4/5: emily_chen.txt
+Scoring CV 4/5: Emily Chen
+Extracting CV 5/5: sara_khan.txt
+Scoring CV 5/5: Sara Khan
+Recalibrating scores across the shortlist (LLM-2).
+
+Wrote JSON results to ../../eval/data/ranked_final.json

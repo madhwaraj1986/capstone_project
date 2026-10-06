@@ -1,0 +1,44 @@
+
+=== Ranked CVs ===
+RANK | SCORE | CANDIDATE    | SOURCE           | MISSING MUST-HAVES                              
+-----+-------+--------------+------------------+-------------------------------------------------
+1    | 97    | Priya Sharma | priya_sharma.pdf | -                                               
+2    | 71    | Rahul Verma  | rahul_verma.docx | apache airflow, s3, glue                        
+3    | 39    | Emily Chen   | emily_chen.txt   | apache spark, pyspark, apache airflow, aws, s...
+4    | 18    | Sara Khan    | sara_khan.txt    | -                                               
+5    | 15    | John Doe     | john_doe.md      | python, sql, apache spark, pyspark, apache ai...
+
+=== Match explanations ===
+[1] Priya Sharma (overall=97, skills=98, experience=96, domain=95, education=100)
+  Source: priya_sharma.pdf
+  Strengths: Full coverage of must-have tech stack with deep hands-on AWS, PySpark, and Airflow experience; Exceeds experience requirements with 7 years of dedicated data engineering work; Direct retail and e-commerce domain experience demonstrated at ShopMart; Proven senior leadership capabilities through mentoring junior engineers and leading pipeline migrations
+  Risks: Highly qualified candidate likely to command top-of-market compensation or multiple competing offers
+  Explanation: Priya Sharma is an exemplary match for the Senior Data Engineer role, fulfilling 100% of the must-have requirements. She brings 7 years of relevant data engineering experience, exceeding the required 5-year threshold. Her work history at ShopMart directly aligns with the target retail analytics domain, featuring scale-tested PySpark pipelines handling 4 TB/day on AWS EMR. Additionally, she demonstrates hands-on proficiency with the required orchestration and warehousing stack, specifically Apache Airflow, Redshift, S3, and Glue. She also covers key nice-to-have tools including Kafka, dbt, Docker, and Terraform, along with explicit experience mentoring junior engineers. Her educational background of a B.Tech in Computer Science from IIT Delhi perfectly fulfills the degree criteria. Overall, she presents minimal hiring risk and is exceptionally well-positioned to step directly into the senior responsibilities.
+
+[2] Rahul Verma (overall=71, skills=68, experience=75, domain=60, education=95)
+  Source: rahul_verma.docx
+  Strengths: Solid core data processing foundation in Python, SQL, Apache Spark, and AWS Redshift.; Practical experience executing batch pipelines on AWS EMR.; Meets the minimum experience benchmark with 5 years in data engineering roles.; Relevant educational background with a B.E. in Information Technology.
+  Risks: Lacks experience with core orchestration tool Apache Airflow, having relied on cron and Step Functions.; No evidenced exposure to AWS Glue, S3, or streaming infrastructure like Kafka.; No proven leadership or mentoring track record required for a Senior-level position.; Experience is concentrated in financial services rather than retail or e-commerce analytics.
+  Explanation: Rahul Verma meets the baseline experience requirement with 5 years across data engineering positions and holds a relevant degree in Information Technology. He demonstrates solid technical competency in core batch processing tools, specifically Python, SQL, Apache Spark, Redshift, and AWS EMR. However, he is missing key components of the target data stack, notably Apache Airflow and AWS Glue, relying instead on Step Functions and basic cron scheduling. Additionally, there is no evidence of mentoring junior engineers or operating at a senior technical leadership level. His background is rooted in financial services rather than retail or e-commerce, offering lower domain alignment. Overall, he represents a competent mid-level data engineer who would need upskilling to meet the senior requirements of this position.
+
+[3] Emily Chen (overall=39, skills=25, experience=35, domain=55, education=85)
+  Source: emily_chen.txt
+  Strengths: Demonstrated foundational proficiency in SQL and Python for data manipulation.; Direct retail domain experience working on merchandising analytics at RetailCo.; Relevant quantitative background with a B.Sc. in Statistics.
+  Risks: Lacks core data engineering stack including Spark, Airflow, and AWS cloud services (S3, Glue, EMR, Redshift).; Falls short of the required 5+ years of experience, bringing only 3 years as an analyst.; Experience is focused on BI and reporting rather than distributed data pipeline architecture, data quality frameworks, or technical leadership.
+  Explanation: Emily Chen presents a strong profile as a Data Analyst but falls significantly short of the requirements for a Senior Data Engineer. She possesses foundational Python and SQL skills alongside direct retail industry exposure from her tenure at RetailCo. However, she lacks 8 out of the 10 must-have technical skills, with no evidenced experience in Apache Spark, Airflow, or the AWS data ecosystem. Her 3 years of professional experience are below the 5-year requirement, and her work history emphasizes dashboard building and automated reporting rather than large-scale data engineering. Her B.Sc. in Statistics satisfies the educational requirements for a related quantitative discipline. Overall, she is not currently qualified for a senior engineering role demanding distributed systems design and pipeline optimization.
+
+[4] Sara Khan (overall=18, skills=35, experience=0, domain=10, education=20)
+  Source: sara_khan.txt
+  Strengths: Resume lists all required technical keywords (Python, SQL, PySpark, Airflow, AWS services); Customer-facing and supervisory experience in retail and service environments
+  Risks: Zero professional experience in data engineering, software engineering, or technical roles; Does not meet the 5-year required experience threshold for a Senior role; Technical skills appear as an unsubstantiated keyword list without project or work history evidence; Lacks the required Bachelor's degree in Computer Science or a related field
+  Explanation: Sara Khan is not qualified for the Senior Data Engineer position. While her resume includes an extensive list of relevant keywords that match 100% of the must-have technologies, there is no work history, project documentation, or professional context demonstrating their practical application. Her entire professional background consists of hospitality and brick-and-mortar retail roles (Shift Supervisor and Retail Associate), yielding 0 years of applicable data engineering experience against the 5 years required. Additionally, she holds a high school diploma rather than the required Bachelor's degree in Computer Science or a related quantitative discipline. She should not be advanced for this senior-level technical role.
+
+[5] John Doe (overall=15, skills=0, experience=15, domain=0, education=100)
+  Source: john_doe.md
+  Strengths: Holds a Bachelor of Science in Computer Science, directly satisfying the educational requirement.; Brings 6 years of professional software engineering experience, meeting the total years threshold.
+  Risks: Completely lacks all required data engineering skills, including Python, SQL, Spark, and AWS services.; Work history is solely focused on frontend and web application development with no data pipeline or backend data platform experience.; No exposure to retail or e-commerce analytics domains.
+  Explanation: John Doe has 6 years of software development experience and holds a B.S. in Computer Science, which satisfies the foundational education requirement. However, his professional background is entirely in frontend web engineering using React, TypeScript, and Node.js. He provides no evidence of any must-have data engineering competencies, such as Python, SQL, Apache Spark, Airflow, or the AWS data stack. Additionally, his experience includes no work with ETL/ELT pipelines, distributed processing, or data warehousing. Because there is zero technical or domain alignment with the Senior Data Engineer role, he is not a viable candidate.
+
+=== Skipped CVs ===
+- empty.txt: No extractable text found in /Users/m0g041w/Library/CloudStorage/OneDrive-WalmartInc/2026/workplace/genai/capstone_project/eval/data/cvs_noisy/empty.txt
+- broken.docx: Invalid DOCX file: /Users/m0g041w/Library/CloudStorage/OneDrive-WalmartInc/2026/workplace/genai/capstone_project/eval/data/cvs_noisy/broken.docx

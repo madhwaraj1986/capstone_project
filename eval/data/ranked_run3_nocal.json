@@ -1,0 +1,622 @@
+{
+  "job": {
+    "job_title": "Senior Data Engineer",
+    "seniority": "Senior",
+    "must_have_skills": [
+      "python",
+      "sql",
+      "apache spark",
+      "pyspark",
+      "apache airflow",
+      "aws",
+      "s3",
+      "glue",
+      "emr",
+      "redshift"
+    ],
+    "nice_to_have_skills": [
+      "kafka",
+      "dbt",
+      "docker",
+      "terraform",
+      "retail domain",
+      "e-commerce domain"
+    ],
+    "responsibilities": [
+      "design ETL/ELT pipelines",
+      "optimise Spark jobs",
+      "own data quality checks",
+      "mentor junior engineers",
+      "partner with analysts"
+    ],
+    "required_experience_years": 5,
+    "education": "Bachelor's degree in Computer Science or a related field",
+    "keywords": [
+      "data engineer",
+      "retail analytics",
+      "batch pipelines",
+      "streaming pipelines",
+      "cloud data services"
+    ],
+    "summary": "We are hiring a Senior Data Engineer to build and operate batch and streaming data pipelines for our retail analytics platform. The ideal candidate brings at least 5 years of experience with Python, SQL, Apache Spark, Airflow, and AWS. Responsibilities include designing ETL/ELT pipelines, optimizing jobs, ensuring data quality, and mentoring junior team members."
+  },
+  "models": {
+    "extractor": "gemini-3.5-flash-lite",
+    "ranker": "gemini-3.8-flash"
+  },
+  "candidate_count": 5,
+  "scored_count": 5,
+  "ranked_candidates": [
+    {
+      "candidate_id": "cv_003",
+      "candidate_name": "Priya Sharma",
+      "source_file": "priya_sharma.pdf",
+      "skills": [
+        "python",
+        "sql",
+        "pyspark",
+        "apache airflow",
+        "aws",
+        "s3",
+        "glue",
+        "emr",
+        "redshift",
+        "kafka",
+        "dbt",
+        "docker",
+        "terraform"
+      ],
+      "structured_cv": {
+        "candidate_name": "Priya Sharma",
+        "source_file": "priya_sharma.pdf",
+        "headline": "Senior Data Engineer",
+        "years_experience": 7,
+        "education": [
+          "B.Tech Computer Science, IIT Delhi"
+        ],
+        "skills": [
+          "python",
+          "sql",
+          "pyspark",
+          "apache airflow",
+          "aws",
+          "s3",
+          "glue",
+          "emr",
+          "redshift",
+          "kafka",
+          "dbt",
+          "docker",
+          "terraform"
+        ],
+        "experience": [
+          {
+            "title": "Senior Data Engineer",
+            "company": "ShopMart",
+            "duration": "2020-2025",
+            "highlights": [
+              "Built PySpark pipelines on AWS EMR processing 4 TB/day",
+              "Orchestrated 120+ Airflow DAGs",
+              "Migrated warehouse to Redshift",
+              "Introduced dbt models and Great Expectations data-quality checks",
+              "Mentored 4 engineers",
+              "Streaming ingestion with Kafka"
+            ]
+          },
+          {
+            "title": "Data Engineer",
+            "company": "DataCorp",
+            "duration": "2018-2020",
+            "highlights": [
+              "Python and SQL ETL into S3 and Glue"
+            ]
+          }
+        ],
+        "projects": [],
+        "achievements": [],
+        "summary": "Priya Sharma is a Senior Data Engineer with 7 years of experience building data platforms for e-commerce and retail. She has expertise in developing PySpark pipelines on AWS, orchestrating data workflows with Apache Airflow, and managing data warehouse migrations to Redshift. Her technical stack includes Python, SQL, Kafka, dbt, Docker, and Terraform. She holds a B.Tech in Computer Science from IIT Delhi."
+      },
+      "skills_score": 98,
+      "experience_score": 95,
+      "education_score": 100,
+      "domain_score": 95,
+      "overall_score": 97,
+      "matched_must_have": [
+        "python",
+        "sql",
+        "apache spark",
+        "pyspark",
+        "apache airflow",
+        "aws",
+        "s3",
+        "glue",
+        "emr",
+        "redshift"
+      ],
+      "missing_must_have": [],
+      "strengths": [
+        "100% coverage of must-have skills with extensive production AWS and Spark experience",
+        "Direct retail/e-commerce domain background at ShopMart processing 4 TB/day",
+        "Demonstrated leadership with mentoring 4 junior engineers",
+        "Strong technical pedigree with a B.Tech in Computer Science from IIT Delhi"
+      ],
+      "risks": [
+        "Minimal specific details provided on streaming scale compared to batch workloads"
+      ],
+      "explanation": "Priya Sharma is an exceptional match for the Senior Data Engineer position, satisfying all must-have technical requirements and exceeding the baseline experience with 7 years in the field. Her experience at ShopMart directly aligns with the retail analytics focus, demonstrating proven ability to manage high-throughput PySpark pipelines on AWS EMR and orchestrate over 120 Airflow DAGs. She also covers key responsibilities such as data quality implementation using Great Expectations and mentoring junior engineers. Her education is fully aligned, holding a B.Tech in Computer Science from IIT Delhi. Furthermore, she possesses nearly all nice-to-have skills, including Kafka, dbt, Docker, and Terraform. Overall, she presents minimal hiring risk and is an immediate fit for the technical stack and scope of the role.",
+      "keyword_overlap": {
+        "must_have_matched": [
+          "python",
+          "sql",
+          "apache spark",
+          "pyspark",
+          "apache airflow",
+          "aws",
+          "s3",
+          "glue",
+          "emr",
+          "redshift"
+        ],
+        "must_have_missing": [],
+        "nice_to_have_matched": [
+          "kafka",
+          "dbt",
+          "docker",
+          "terraform"
+        ],
+        "nice_to_have_missing": [
+          "retail domain",
+          "e-commerce domain"
+        ],
+        "must_have_coverage_pct": 100.0
+      },
+      "rank": 1
+    },
+    {
+      "candidate_id": "cv_002",
+      "candidate_name": "Rahul Verma",
+      "source_file": "rahul_verma.docx",
+      "skills": [
+        "python",
+        "sql",
+        "apache spark",
+        "aws",
+        "redshift",
+        "docker"
+      ],
+      "structured_cv": {
+        "candidate_name": "Rahul Verma",
+        "source_file": "rahul_verma.docx",
+        "headline": "Data Engineer",
+        "years_experience": 5,
+        "education": [
+          "B.E. Information Technology"
+        ],
+        "skills": [
+          "python",
+          "sql",
+          "apache spark",
+          "aws",
+          "redshift",
+          "docker"
+        ],
+        "experience": [
+          {
+            "title": "Data Engineer",
+            "company": "FinServe Ltd",
+            "duration": "2021-2025",
+            "highlights": [
+              "Spark batch jobs in Python on AWS EMR",
+              "SQL transformations in Redshift",
+              "scheduling with cron and AWS Step Functions"
+            ]
+          },
+          {
+            "title": "Junior Data Engineer",
+            "company": "Analytics Hub",
+            "duration": "2020-2021",
+            "highlights": [
+              "SQL reporting pipelines"
+            ]
+          }
+        ],
+        "projects": [],
+        "achievements": [],
+        "summary": "Rahul Verma is a Data Engineer with 5 years of professional experience specializing in Python, SQL, Apache Spark, and AWS technologies. He has a background in Information Technology and has worked at FinServe Ltd and Analytics Hub. His core technical expertise includes building Spark batch jobs, managing SQL transformations in Redshift, and orchestrating pipelines using cron and AWS Step Functions."
+      },
+      "skills_score": 68,
+      "experience_score": 70,
+      "education_score": 95,
+      "domain_score": 60,
+      "overall_score": 70,
+      "matched_must_have": [
+        "python",
+        "sql",
+        "apache spark",
+        "pyspark",
+        "aws",
+        "emr",
+        "redshift"
+      ],
+      "missing_must_have": [
+        "apache airflow",
+        "s3",
+        "glue"
+      ],
+      "strengths": [
+        "Meets the 5-year experience requirement with hands-on work in Python, SQL, Spark, and Redshift.",
+        "Evidenced use of AWS EMR for Spark batch processing in production.",
+        "Strong educational alignment with a B.E. in Information Technology."
+      ],
+      "risks": [
+        "Lacks Apache Airflow experience, having used cron and Step Functions instead.",
+        "Missing explicit coverage of AWS S3 and AWS Glue.",
+        "No demonstrated domain exposure to retail or e-commerce analytics.",
+        "Lacks senior-level responsibilities such as mentoring junior engineers or building streaming pipelines."
+      ],
+      "explanation": "Rahul Verma meets the baseline 5-year requirement and holds a directly relevant degree in Information Technology. His technical profile demonstrates strong fundamentals in core data engineering tools, including Python, SQL, Apache Spark, Redshift, and AWS EMR. However, he lacks documented experience with Apache Airflow, AWS Glue, and AWS S3, all of which are must-haves for this position. Furthermore, his domain background is centered in financial services rather than retail analytics, and he lacks nice-to-have skills like Kafka and dbt. While he satisfies mid-level execution requirements, there is no evidence of senior-level responsibilities such as mentoring junior staff or designing streaming architectures. Consequently, he presents as a capable candidate who would require bridging to fulfill senior expectations in this retail environment.",
+      "keyword_overlap": {
+        "must_have_matched": [
+          "python",
+          "sql",
+          "apache spark",
+          "pyspark",
+          "aws",
+          "redshift"
+        ],
+        "must_have_missing": [
+          "apache airflow",
+          "s3",
+          "glue",
+          "emr"
+        ],
+        "nice_to_have_matched": [
+          "docker"
+        ],
+        "nice_to_have_missing": [
+          "kafka",
+          "dbt",
+          "terraform",
+          "retail domain",
+          "e-commerce domain"
+        ],
+        "must_have_coverage_pct": 60.0
+      },
+      "rank": 2
+    },
+    {
+      "candidate_id": "cv_004",
+      "candidate_name": "Emily Chen",
+      "source_file": "emily_chen.txt",
+      "skills": [
+        "sql",
+        "python",
+        "pandas",
+        "tableau",
+        "excel",
+        "snowflake"
+      ],
+      "structured_cv": {
+        "candidate_name": "Emily Chen",
+        "source_file": "emily_chen.txt",
+        "headline": "Data Analyst",
+        "years_experience": 3,
+        "education": [
+          "B.Sc. Statistics"
+        ],
+        "skills": [
+          "sql",
+          "python",
+          "pandas",
+          "tableau",
+          "excel",
+          "snowflake"
+        ],
+        "experience": [
+          {
+            "title": "Data Analyst",
+            "company": "RetailCo",
+            "duration": "2022-2025",
+            "highlights": [
+              "Wrote SQL queries in Snowflake",
+              "Built Tableau dashboards for merchandising",
+              "Automated weekly reports with Python pandas scripts"
+            ]
+          }
+        ],
+        "projects": [],
+        "achievements": [],
+        "summary": "Emily Chen is a Data Analyst with 3 years of experience specializing in retail analytics. Her technical background includes writing SQL queries in Snowflake, building Tableau dashboards for merchandising, and automating weekly reports using Python pandas scripts. She holds a B.Sc. in Statistics and possesses professional skills in SQL, Python, Tableau, Excel, and Snowflake."
+      },
+      "skills_score": 25,
+      "experience_score": 30,
+      "education_score": 85,
+      "domain_score": 45,
+      "overall_score": 37,
+      "matched_must_have": [
+        "python",
+        "sql"
+      ],
+      "missing_must_have": [
+        "apache spark",
+        "pyspark",
+        "apache airflow",
+        "aws",
+        "s3",
+        "glue",
+        "emr",
+        "redshift"
+      ],
+      "strengths": [
+        "Proficient in core Python and SQL scripting",
+        "Direct industry exposure to retail analytics at RetailCo",
+        "Relevant quantitative background with a B.Sc. in Statistics"
+      ],
+      "risks": [
+        "Lacks essential data engineering tools including Apache Spark, Airflow, and AWS data services",
+        "Falls short of the seniority requirement with 3 years of analytics experience versus 5 required engineering years",
+        "No proven background in building production ETL/ELT pipelines, streaming systems, or mentoring"
+      ],
+      "explanation": "Emily Chen demonstrates a solid analytical background with three years of experience as a Data Analyst at RetailCo. She possesses core proficiencies in SQL and Python and holds a well-aligned B.Sc. in Statistics. However, there are significant gaps when evaluated against the Senior Data Engineer profile. She lacks critical data platform technologies, including Apache Spark, Airflow, and the entire AWS big data ecosystem. Additionally, her professional history reflects dashboard development and reporting automation rather than designing robust ETL/ELT pipelines or operating distributed systems. Consequently, she does not meet the technical scope or seniority expectations for this senior role.",
+      "keyword_overlap": {
+        "must_have_matched": [
+          "python",
+          "sql"
+        ],
+        "must_have_missing": [
+          "apache spark",
+          "pyspark",
+          "apache airflow",
+          "aws",
+          "s3",
+          "glue",
+          "emr",
+          "redshift"
+        ],
+        "nice_to_have_matched": [],
+        "nice_to_have_missing": [
+          "kafka",
+          "dbt",
+          "docker",
+          "terraform",
+          "retail domain",
+          "e-commerce domain"
+        ],
+        "must_have_coverage_pct": 20.0
+      },
+      "rank": 3
+    },
+    {
+      "candidate_id": "cv_005",
+      "candidate_name": "Sara Khan",
+      "source_file": "sara_khan.txt",
+      "skills": [
+        "python",
+        "sql",
+        "spark",
+        "pyspark",
+        "airflow",
+        "aws",
+        "s3",
+        "glue",
+        "emr",
+        "redshift",
+        "kafka",
+        "dbt",
+        "docker",
+        "terraform",
+        "data engineering",
+        "etl",
+        "big data"
+      ],
+      "structured_cv": {
+        "candidate_name": "Sara Khan",
+        "source_file": "sara_khan.txt",
+        "headline": "",
+        "years_experience": 6,
+        "education": [
+          "High school diploma"
+        ],
+        "skills": [
+          "python",
+          "sql",
+          "spark",
+          "pyspark",
+          "airflow",
+          "aws",
+          "s3",
+          "glue",
+          "emr",
+          "redshift",
+          "kafka",
+          "dbt",
+          "docker",
+          "terraform",
+          "data engineering",
+          "etl",
+          "big data"
+        ],
+        "experience": [
+          {
+            "title": "Shift Supervisor",
+            "company": "Bean Street Cafe",
+            "duration": "2021-2025",
+            "highlights": [
+              "managed staff rota",
+              "handled cash reconciliation",
+              "trained new baristas"
+            ]
+          },
+          {
+            "title": "Retail Associate",
+            "company": "City Mart",
+            "duration": "2019-2021",
+            "highlights": [
+              "stocked shelves",
+              "customer service"
+            ]
+          }
+        ],
+        "projects": [],
+        "achievements": [],
+        "summary": "Sara Khan has experience working in retail and hospitality roles, including as a Shift Supervisor at Bean Street Cafe from 2021 to 2025 and a Retail Associate at City Mart from 2019 to 2021. Her background includes staff management, cash handling, and customer service. Additionally, she lists a diverse technical skillset encompassing data engineering tools and technologies such as Python, SQL, Spark, AWS, Kafka, and Docker."
+      },
+      "skills_score": 35,
+      "experience_score": 5,
+      "education_score": 20,
+      "domain_score": 10,
+      "overall_score": 20,
+      "matched_must_have": [
+        "python",
+        "sql",
+        "apache spark",
+        "pyspark",
+        "apache airflow",
+        "aws",
+        "s3",
+        "glue",
+        "emr",
+        "redshift"
+      ],
+      "missing_must_have": [],
+      "strengths": [
+        "Self-reported skills inventory covers the core data engineering and cloud stack required for the role",
+        "Has general workplace experience including supervision and customer service"
+      ],
+      "risks": [
+        "Zero professional or practical experience in data engineering, ETL pipelines, or software development",
+        "All technical skills appear solely as keyword claims without project or employment evidence",
+        "Does not meet the 5-year experience requirement for a senior technical position",
+        "Holds a high school diploma instead of the required Bachelor's degree in Computer Science or a related field"
+      ],
+      "explanation": "Sara Khan does not meet the qualifications for the Senior Data Engineer position. While her resume contains a comprehensive list of required keywords including Python, SQL, Spark, Airflow, and AWS, these skills are entirely unsupported by her work history. Her six years of professional experience are strictly in hospitality and retail customer service roles as a Shift Supervisor and Retail Associate. She demonstrates no track record of designing ETL pipelines, managing distributed compute, or mentoring junior engineers. Additionally, her highest level of education is a high school diploma, which falls short of the required Bachelor's degree in Computer Science or a related field. Given the complete absence of demonstrated technical experience at a senior level, she is not recommended for this role.",
+      "keyword_overlap": {
+        "must_have_matched": [
+          "python",
+          "sql",
+          "apache spark",
+          "pyspark",
+          "apache airflow",
+          "aws",
+          "s3",
+          "glue",
+          "emr",
+          "redshift"
+        ],
+        "must_have_missing": [],
+        "nice_to_have_matched": [
+          "kafka",
+          "dbt",
+          "docker",
+          "terraform"
+        ],
+        "nice_to_have_missing": [
+          "retail domain",
+          "e-commerce domain"
+        ],
+        "must_have_coverage_pct": 100.0
+      },
+      "rank": 4
+    },
+    {
+      "candidate_id": "cv_001",
+      "candidate_name": "John Doe",
+      "source_file": "john_doe.md",
+      "skills": [
+        "javascript",
+        "typescript",
+        "react",
+        "node.js",
+        "css",
+        "jest"
+      ],
+      "structured_cv": {
+        "candidate_name": "John Doe",
+        "source_file": "john_doe.md",
+        "headline": "Frontend Engineer",
+        "years_experience": 6,
+        "education": [
+          "B.S. Computer Science"
+        ],
+        "skills": [
+          "javascript",
+          "typescript",
+          "react",
+          "node.js",
+          "css",
+          "jest"
+        ],
+        "experience": [
+          {
+            "title": "Frontend Engineer",
+            "company": "WebWorks",
+            "duration": "2019-2025",
+            "highlights": [
+              "Built React and TypeScript single-page apps",
+              "Developed Node.js APIs",
+              "Implemented Jest testing and CI with GitHub Actions"
+            ]
+          }
+        ],
+        "projects": [],
+        "achievements": [],
+        "summary": "John Doe is a Frontend Engineer with 6 years of experience building web applications. He has professional expertise in developing React and TypeScript single-page applications, Node.js APIs, and implementing testing with Jest and CI workflows using GitHub Actions. He holds a B.S. in Computer Science and possesses core technical skills in JavaScript, TypeScript, React, Node.js, CSS, and Jest."
+      },
+      "skills_score": 0,
+      "experience_score": 20,
+      "education_score": 95,
+      "domain_score": 5,
+      "overall_score": 17,
+      "matched_must_have": [],
+      "missing_must_have": [
+        "python",
+        "sql",
+        "apache spark",
+        "pyspark",
+        "apache airflow",
+        "aws",
+        "s3",
+        "glue",
+        "emr",
+        "redshift"
+      ],
+      "strengths": [
+        "Meets the minimum years of overall software development experience with 6 years in the industry.",
+        "Holds a Bachelor of Science in Computer Science, directly satisfying the educational requirement."
+      ],
+      "risks": [
+        "Completely lacks all 10 required must-have skills, including Python, SQL, Spark, and AWS services.",
+        "Background is entirely focused on frontend web development rather than data engineering or ETL/ELT pipelines.",
+        "No exposure to distributed computing, cloud data infrastructure, or retail analytics domains."
+      ],
+      "explanation": "John Doe is not qualified for the Senior Data Engineer position. Although he holds a B.S. in Computer Science and has six years of professional experience, his background is strictly in frontend engineering using React, TypeScript, and Node.js. He provides no evidence of experience with essential data engineering technologies such as Python, SQL, Apache Spark, Airflow, or AWS cloud services. Furthermore, his work history contains no pipeline development, data architecture, or data quality ownership responsibilities. His domain background has virtually no overlap with retail analytics or large-scale data engineering. Consequently, he should not be advanced for this role.",
+      "keyword_overlap": {
+        "must_have_matched": [],
+        "must_have_missing": [
+          "python",
+          "sql",
+          "apache spark",
+          "pyspark",
+          "apache airflow",
+          "aws",
+          "s3",
+          "glue",
+          "emr",
+          "redshift"
+        ],
+        "nice_to_have_matched": [],
+        "nice_to_have_missing": [
+          "kafka",
+          "dbt",
+          "docker",
+          "terraform",
+          "retail domain",
+          "e-commerce domain"
+        ],
+        "must_have_coverage_pct": 0.0
+      },
+      "rank": 5
+    }
+  ],
+  "skipped": []
+}

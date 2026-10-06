@@ -1,0 +1,188 @@
+{
+  "job": {
+    "job_title": "Senior Data Engineer",
+    "seniority": "Senior",
+    "must_have_skills": [
+      "python",
+      "sql",
+      "apache spark",
+      "pyspark",
+      "apache airflow",
+      "aws",
+      "s3",
+      "glue",
+      "emr",
+      "redshift"
+    ],
+    "nice_to_have_skills": [
+      "kafka",
+      "dbt",
+      "docker",
+      "terraform",
+      "retail domain experience",
+      "e-commerce domain experience"
+    ],
+    "responsibilities": [
+      "design ETL/ELT pipelines",
+      "optimise Spark jobs",
+      "own data quality checks",
+      "mentor junior engineers",
+      "partner with analysts"
+    ],
+    "required_experience_years": 5,
+    "education": "Bachelor's degree in Computer Science or a related field",
+    "keywords": [
+      "data engineer",
+      "retail analytics",
+      "batch pipelines",
+      "streaming pipelines",
+      "aws"
+    ],
+    "summary": "We are looking for a Senior Data Engineer to build and operate batch and streaming data pipelines for our retail analytics platform. The ideal candidate will have strong Python and SQL skills, experience with Apache Spark and Airflow, and proficiency in AWS cloud services. Responsibilities include designing ETL/ELT pipelines, optimizing Spark jobs, and mentoring junior engineers."
+  },
+  "models": {
+    "extractor": "gemini-3.5-flash-lite",
+    "ranker": "gemini-3.8-flash"
+  },
+  "candidate_count": 1,
+  "scored_count": 5,
+  "ranked_candidates": [
+    {
+      "candidate_id": "cv_003",
+      "candidate_name": "Priya Sharma",
+      "source_file": "priya_sharma.pdf",
+      "skills": [
+        "python",
+        "sql",
+        "pyspark",
+        "apache airflow",
+        "aws",
+        "s3",
+        "glue",
+        "emr",
+        "redshift",
+        "kafka",
+        "dbt",
+        "docker",
+        "terraform"
+      ],
+      "structured_cv": {
+        "candidate_name": "Priya Sharma",
+        "source_file": "priya_sharma.pdf",
+        "headline": "Senior Data Engineer",
+        "years_experience": 7,
+        "education": [
+          "B.Tech Computer Science, IIT Delhi"
+        ],
+        "skills": [
+          "python",
+          "sql",
+          "pyspark",
+          "apache airflow",
+          "aws",
+          "s3",
+          "glue",
+          "emr",
+          "redshift",
+          "kafka",
+          "dbt",
+          "docker",
+          "terraform"
+        ],
+        "experience": [
+          {
+            "title": "Senior Data Engineer",
+            "company": "ShopMart",
+            "duration": "2020-2025",
+            "highlights": [
+              "Built PySpark pipelines on AWS EMR processing 4 TB/day",
+              "Orchestrated 120+ Airflow DAGs",
+              "Migrated warehouse to Redshift",
+              "Introduced dbt models and Great Expectations data-quality checks",
+              "Mentored 4 engineers",
+              "Streaming ingestion with Kafka"
+            ]
+          },
+          {
+            "title": "Data Engineer",
+            "company": "DataCorp",
+            "duration": "2018-2020",
+            "highlights": [
+              "Python and SQL ETL into S3 and Glue"
+            ]
+          }
+        ],
+        "projects": [],
+        "achievements": [],
+        "summary": "Priya Sharma is a Senior Data Engineer with 7 years of experience building robust data platforms for e-commerce and retail. She has a strong background in developing scalable PySpark pipelines, orchestrating data workflows with Apache Airflow, and managing cloud infrastructure on AWS. Her expertise spans data warehousing, streaming ingestion with Kafka, and implementing data quality and transformation tools like dbt and Great Expectations. She also brings leadership experience from mentoring junior engineers."
+      },
+      "skills_score": 98,
+      "experience_score": 95,
+      "education_score": 100,
+      "domain_score": 95,
+      "overall_score": 97,
+      "matched_must_have": [
+        "python",
+        "sql",
+        "apache spark",
+        "pyspark",
+        "apache airflow",
+        "aws",
+        "s3",
+        "glue",
+        "emr",
+        "redshift"
+      ],
+      "missing_must_have": [],
+      "strengths": [
+        "100% match on required must-have skills including extensive PySpark, Airflow, and AWS ecosystem tools",
+        "Strong track record in retail/e-commerce data platforms processing multi-terabyte pipelines at ShopMart",
+        "Demonstrated mentorship capability and direct experience leading data quality initiatives with Great Expectations and dbt",
+        "Exceeds experience requirement with 7 years of relevant data engineering tenure"
+      ],
+      "risks": [
+        "No significant technical risks identified; profile represents an exceptionally close alignment"
+      ],
+      "explanation": "Priya Sharma is an exemplary fit for the Senior Data Engineer position, satisfying 100% of the must-have technical requirements and nearly all nice-to-have proficiencies. With 7 years of progressive experience, she has directly performed every primary job duty, including architecting large-scale PySpark pipelines on AWS EMR, managing 120+ Airflow DAGs, and handling Redshift migrations. Her background at ShopMart provides direct retail and e-commerce domain experience, aligning seamlessly with the team's analytics focus. Additionally, she demonstrates proven leadership through mentoring junior engineers and institutionalizing automated data quality checks. Her educational background in Computer Science from IIT Delhi perfectly satisfies the degree prerequisite. Overall, her profile presents immediate readiness and high capability with minimal ramp-up time.",
+      "keyword_overlap": {
+        "must_have_matched": [
+          "python",
+          "sql",
+          "apache spark",
+          "pyspark",
+          "apache airflow",
+          "aws",
+          "s3",
+          "glue",
+          "emr",
+          "redshift"
+        ],
+        "must_have_missing": [],
+        "nice_to_have_matched": [
+          "kafka",
+          "dbt",
+          "docker",
+          "terraform"
+        ],
+        "nice_to_have_missing": [
+          "retail domain experience",
+          "e-commerce domain experience"
+        ],
+        "must_have_coverage_pct": 100.0
+      },
+      "pre_calibration_score": 97,
+      "calibration_note": "Unambiguous top candidate meeting all must-have technical requirements with 7 years of directly relevant senior-level experience.",
+      "rank": 1
+    }
+  ],
+  "skipped": [
+    {
+      "source_file": "empty.txt",
+      "reason": "No extractable text found in /Users/m0g041w/Library/CloudStorage/OneDrive-WalmartInc/2026/workplace/genai/capstone_project/eval/data/cvs_noisy/empty.txt"
+    },
+    {
+      "source_file": "broken.docx",
+      "reason": "Invalid DOCX file: /Users/m0g041w/Library/CloudStorage/OneDrive-WalmartInc/2026/workplace/genai/capstone_project/eval/data/cvs_noisy/broken.docx"
+    }
+  ]
+}

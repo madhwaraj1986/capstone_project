@@ -1,0 +1,10 @@
+Emily Chen
+Data Analyst
+
+3 years of experience in retail analytics.
+
+RetailCo (2022-2025) Data Analyst: wrote SQL queries in Snowflake, built Tableau
+dashboards for merchandising, automated weekly reports with Python pandas scripts.
+
+Skills: SQL, Python (pandas), Tableau, Excel, Snowflake
+Education: B.Sc. Statistics

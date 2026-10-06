@@ -1,0 +1,11 @@
+Sara Khan
+
+Skills: Python, SQL, Spark, PySpark, Airflow, AWS, S3, Glue, EMR, Redshift,
+Kafka, dbt, Docker, Terraform, data engineering, ETL, big data
+
+Experience:
+Bean Street Cafe (2021-2025) Shift Supervisor: managed staff rota, handled
+cash reconciliation, trained new baristas.
+City Mart (2019-2021) Retail Associate: stocked shelves, customer service.
+
+Education: High school diploma

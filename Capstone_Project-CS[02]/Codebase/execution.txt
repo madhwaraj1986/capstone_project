@@ -1,0 +1,31 @@
+python main.py --jd ./job.txt --cv-dir ./cvs --api-key YOUR_API_KEY --extractor-model gpt-4o-mini --ranker-model gpt-4o --output ./ranked.json
+
+# Prerequisite (run once):
+#   pip install openai pdfplumber
+
+# Inputs (place next to main.py):
+#   ./job.txt   Job description (.txt, .md, .pdf or .docx)
+#   ./cvs/      Folder of candidate CVs (.txt, .md, .pdf or .docx); individual files can be given with --cvs instead
+# Output:
+#   Ranked table and per-candidate explanations printed to the terminal; full results in ./ranked.json (--output is optional)
+# LLMs:
+#   --extractor-model = LLM-1 (structured extraction), --ranker-model = LLM-2 (scoring and ranking)
+
+# Same run with the API key from an environment variable instead of --api-key:
+#   export OPENAI_API_KEY=YOUR_API_KEY
+#   python main.py --jd ./job.txt --cvs ./cv1.pdf ./cv2.docx --extractor-model gpt-4o-mini --ranker-model gpt-4o
+
+# Google Gemini (OpenAI-compatible; configuration used for the results in the report):
+#   python main.py --jd ./job.txt --cv-dir ./cvs --api-key YOUR_GEMINI_KEY --api-base https://generativelanguage.googleapis.com/v1beta/openai/ --extractor-model gemini-3.5-flash-lite --ranker-model gemini-3.8-flash --output ./ranked.json
+
+# Groq (OpenAI-compatible):
+#   python main.py --jd ./job.txt --cv-dir ./cvs --api-key YOUR_GROQ_KEY --api-base https://api.groq.com/openai/v1 --extractor-model llama-3.1-8b-instant --ranker-model llama-3.3-70b-versatile --output ./ranked.json
+
+# Local Ollama (OpenAI-compatible):
+#   python main.py --jd ./job.txt --cv-dir ./cvs --api-key ollama --api-base http://localhost:11434/v1 --extractor-model llama3.1 --ranker-model gemma2 --output ./ranked.json
+
+# Optional recruiter filters (keep only candidates with these skills and at least this overall score):
+#   python main.py --jd ./job.txt --cv-dir ./cvs --api-key YOUR_API_KEY --required-skills python,sql --min-score 60
+
+# All options:
+#   python main.py -h

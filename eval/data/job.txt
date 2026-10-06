@@ -1,0 +1,21 @@
+Senior Data Engineer - Retail Analytics Platform
+
+We are hiring a Senior Data Engineer to build and operate batch and streaming
+data pipelines for our retail analytics platform.
+
+Must have:
+- 5+ years of professional data engineering experience
+- Strong Python and SQL
+- Apache Spark (PySpark) for large-scale processing
+- Workflow orchestration with Apache Airflow
+- Cloud data services on AWS (S3, Glue, EMR or Redshift)
+
+Nice to have:
+- Kafka or other streaming platforms
+- dbt, Docker, Terraform
+- Retail or e-commerce domain experience
+
+Education: Bachelor's degree in Computer Science or a related field.
+
+Responsibilities: design ETL/ELT pipelines, optimise Spark jobs, own data quality
+checks, mentor junior engineers, and partner with analysts.
